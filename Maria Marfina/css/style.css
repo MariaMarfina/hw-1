@@ -183,7 +183,7 @@ body {
   background-color: #9341a0;
 }
 
-.weather-forecast__additional-info-container {
+.weather-forecast__additional-info-list {
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -192,6 +192,9 @@ body {
   height: 100%;
   padding-left: 30px;
   padding-right: 30px;
+
+  list-style: none;
+  margin: 0;
 }
 
 .weather-forecast__day {
