@@ -231,3 +231,30 @@ body {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
+@media (max-width: 615px) {
+  .weather-forecast {
+    max-width: 410px;
+  }
+}
+
+@media (max-width: 410px) {
+  .weather-forecast {
+    max-width: 205px;
+    margin: 30px 0;
+  }
+
+  .main-container {
+    position: relative;
+  }
+}
+
+@media (max-height: 450px) {
+  .weather-forecast {
+    margin: 30px 0;
+  }
+
+  .main-container {
+    position: relative;
+  }
+}
